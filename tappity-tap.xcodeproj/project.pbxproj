@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CA684AB1C71765B00C5EE05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA684AA1C71765B00C5EE05 /* AppDelegate.swift */; };
+		9CA684AD1C71765B00C5EE05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA684AC1C71765B00C5EE05 /* ViewController.swift */; };
+		9CA684B01C71765B00C5EE05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA684AE1C71765B00C5EE05 /* Main.storyboard */; };
+		9CA684B21C71765B00C5EE05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA684B11C71765B00C5EE05 /* Assets.xcassets */; };
+		9CA684B51C71765B00C5EE05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA684B31C71765B00C5EE05 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9CA684A71C71765B00C5EE05 /* tappity-tap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tappity-tap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CA684AA1C71765B00C5EE05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CA684AC1C71765B00C5EE05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9CA684AF1C71765B00C5EE05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CA684B11C71765B00C5EE05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CA684B41C71765B00C5EE05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CA684B61C71765B00C5EE05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CA684A41C71765B00C5EE05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CA6849E1C71765B00C5EE05 = {
+			isa = PBXGroup;
+			children = (
+				9CA684A91C71765B00C5EE05 /* tappity-tap */,
+				9CA684A81C71765B00C5EE05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CA684A81C71765B00C5EE05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CA684A71C71765B00C5EE05 /* tappity-tap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CA684A91C71765B00C5EE05 /* tappity-tap */ = {
+			isa = PBXGroup;
+			children = (
+				9CA684AA1C71765B00C5EE05 /* AppDelegate.swift */,
+				9CA684AC1C71765B00C5EE05 /* ViewController.swift */,
+				9CA684AE1C71765B00C5EE05 /* Main.storyboard */,
+				9CA684B11C71765B00C5EE05 /* Assets.xcassets */,
+				9CA684B31C71765B00C5EE05 /* LaunchScreen.storyboard */,
+				9CA684B61C71765B00C5EE05 /* Info.plist */,
+			);
+			path = "tappity-tap";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CA684A61C71765B00C5EE05 /* tappity-tap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CA684B91C71765B00C5EE05 /* Build configuration list for PBXNativeTarget "tappity-tap" */;
+			buildPhases = (
+				9CA684A31C71765B00C5EE05 /* Sources */,
+				9CA684A41C71765B00C5EE05 /* Frameworks */,
+				9CA684A51C71765B00C5EE05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tappity-tap";
+			productName = "tappity-tap";
+			productReference = 9CA684A71C71765B00C5EE05 /* tappity-tap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CA6849F1C71765B00C5EE05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Junior Samaroo";
+				TargetAttributes = {
+					9CA684A61C71765B00C5EE05 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6W27TEN3TD;
+					};
+				};
+			};
+			buildConfigurationList = 9CA684A21C71765B00C5EE05 /* Build configuration list for PBXProject "tappity-tap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CA6849E1C71765B00C5EE05;
+			productRefGroup = 9CA684A81C71765B00C5EE05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CA684A61C71765B00C5EE05 /* tappity-tap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CA684A51C71765B00C5EE05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA684B51C71765B00C5EE05 /* LaunchScreen.storyboard in Resources */,
+				9CA684B21C71765B00C5EE05 /* Assets.xcassets in Resources */,
+				9CA684B01C71765B00C5EE05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CA684A31C71765B00C5EE05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA684AD1C71765B00C5EE05 /* ViewController.swift in Sources */,
+				9CA684AB1C71765B00C5EE05 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9CA684AE1C71765B00C5EE05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CA684AF1C71765B00C5EE05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CA684B31C71765B00C5EE05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CA684B41C71765B00C5EE05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CA684B71C71765B00C5EE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9CA684B81C71765B00C5EE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CA684BA1C71765B00C5EE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "tappity-tap/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juniorsamaroo.tappity-tap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9CA684BB1C71765B00C5EE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "tappity-tap/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juniorsamaroo.tappity-tap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CA684A21C71765B00C5EE05 /* Build configuration list for PBXProject "tappity-tap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA684B71C71765B00C5EE05 /* Debug */,
+				9CA684B81C71765B00C5EE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CA684B91C71765B00C5EE05 /* Build configuration list for PBXNativeTarget "tappity-tap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA684BA1C71765B00C5EE05 /* Debug */,
+				9CA684BB1C71765B00C5EE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CA6849F1C71765B00C5EE05 /* Project object */;
+}
