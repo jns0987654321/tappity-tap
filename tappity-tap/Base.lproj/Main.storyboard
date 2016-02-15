@@ -20,15 +20,77 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="retrobg" translatesAutoresizingMaskIntoConstraints="NO" id="1bm-E4-gM4">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Tapper" translatesAutoresizingMaskIntoConstraints="NO" id="euA-Xg-fwo" userLabel="TapperLogo">
+                                <rect key="frame" x="52" y="76" width="504" height="116"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="107" id="1rd-ZB-hSL"/>
+                                    <constraint firstAttribute="width" constant="400" id="dj1-Qq-WgR"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="63O-e3-CMF" userLabel="PlayButton">
+                                <rect key="frame" x="186" y="349" width="249" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="4xD-je-1l3"/>
+                                    <constraint firstAttribute="width" constant="249" id="E94-Lw-yAd"/>
+                                </constraints>
+                                <state key="normal" image="playbtn"/>
+                                <connections>
+                                    <action selector="onPlayButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nWd-dd-yAR"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="How many taps to win?" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="maa-0a-3KC" userLabel="TapsToWin">
+                                <rect key="frame" x="186" y="285" width="249" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="Xys-3J-YG4"/>
+                                    <constraint firstAttribute="width" constant="249" id="ryn-Mb-Qdv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5W7-3w-0M7" userLabel="TapButton">
+                                <rect key="frame" x="224" y="100" width="172" height="177"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="177" id="BKs-ad-dCU"/>
+                                    <constraint firstAttribute="width" constant="172" id="qN8-eD-bt7"/>
+                                </constraints>
+                                <state key="normal" image="coin"/>
+                            </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="1000 Taps" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tw6-IH-gwX" userLabel="Taps">
+                                <rect key="frame" x="186" y="299" width="249" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="nqK-QO-bV4"/>
+                                    <constraint firstAttribute="width" constant="249" id="vol-jb-zIo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="40"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="5W7-3w-0M7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4n4-Uh-3kt"/>
                             <constraint firstAttribute="trailing" secondItem="1bm-E4-gM4" secondAttribute="trailing" id="7de-u6-Ko4"/>
+                            <constraint firstItem="tw6-IH-gwX" firstAttribute="centerX" secondItem="5W7-3w-0M7" secondAttribute="centerX" id="ADC-VW-nOH"/>
+                            <constraint firstItem="5W7-3w-0M7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="80" id="B9K-26-gtV"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="63O-e3-CMF" secondAttribute="bottom" constant="65" id="BH0-GA-zGr"/>
+                            <constraint firstItem="63O-e3-CMF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ixu-sY-5pp"/>
                             <constraint firstItem="1bm-E4-gM4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Ti3-2m-FhF"/>
+                            <constraint firstItem="63O-e3-CMF" firstAttribute="top" secondItem="maa-0a-3KC" secondAttribute="bottom" constant="34" id="U8N-Gc-xFh"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1bm-E4-gM4" secondAttribute="bottom" id="USO-yx-XKF"/>
+                            <constraint firstItem="63O-e3-CMF" firstAttribute="centerX" secondItem="maa-0a-3KC" secondAttribute="centerX" id="af1-TL-BYO"/>
+                            <constraint firstItem="euA-Xg-fwo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cOn-hQ-aJw"/>
                             <constraint firstItem="1bm-E4-gM4" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="f2B-R4-2Wd"/>
+                            <constraint firstItem="tw6-IH-gwX" firstAttribute="top" secondItem="5W7-3w-0M7" secondAttribute="bottom" constant="22" id="gt1-0K-Sv0"/>
+                            <constraint firstItem="euA-Xg-fwo" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="56" id="m9i-eH-at7"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="howManyTapsText" destination="maa-0a-3KC" id="J3q-S0-MMg"/>
+                        <outlet property="logoImg" destination="euA-Xg-fwo" id="YED-r1-HcT"/>
+                        <outlet property="playBtn" destination="63O-e3-CMF" id="LIz-iu-D51"/>
+                        <outlet property="tapBtn" destination="5W7-3w-0M7" id="mE9-QW-8l9"/>
+                        <outlet property="tapsLbl" destination="tw6-IH-gwX" id="8GH-b3-qzO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -36,6 +98,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Tapper" width="497" height="107"/>
+        <image name="coin" width="244" height="268"/>
+        <image name="playbtn" width="356" height="175"/>
         <image name="retrobg" width="800" height="800"/>
     </resources>
 </document>

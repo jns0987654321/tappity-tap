@@ -9,17 +9,43 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // Properties
+    var maxTaps = 0
+    var currentTaps = 0
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    // IBOutlets
+    @IBOutlet weak var logoImg: UIImageView!
+    @IBOutlet weak var howManyTapsText: UITextField!
+    @IBOutlet weak var playBtn: UIButton!
+    
+    @IBOutlet weak var tapBtn: UIButton!
+    @IBOutlet weak var tapsLbl: UILabel!
+    
+    // Actions
+    @IBAction func onPlayButtonPressed(sender: UIButton){
+
+        if howManyTapsText.text != nil && howManyTapsText.text != "" {
+            
+            logoImg.hidden = true
+            playBtn.hidden = true
+            howManyTapsText.hidden = true
+            
+            tapBtn.hidden = false
+            tapsLbl.hidden = false
+            
+            maxTaps = Int(howManyTapsText.text!)! //unwrap or check for nil since String return value is not guranteed
+            currentTaps = 0
+            
+            tapsLbl.text = "\(currentTaps) Taps"
+        }
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func onCoinTapped(sender: UIButton!){
+        currentTaps++
+        tapsLbl.text = "\(currentTaps) Taps"
     }
-
 
 }
 
